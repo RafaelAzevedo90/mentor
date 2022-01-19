@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Outfit:wght@300;400;600&display=swap');
+body{
+  font-size: 18px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: navy;
+}
+main{
+  width: 375px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  border-radius: 10px;
+  background-color: #1B335A;
+}
+.card{
+  width: 300px;
+  height: 355px;
+  margin: auto;
+  border-radius: 10px;
+  background-image: url("image-equilibrium.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #B3C7E6;
+}
+.texto, .tempo, .rodape{
+  width: 300px;
+  margin: auto;
+}
+.texto{
+  line-height: 2em;
+  padding-top: 20px;
+  color: #FFFFFF;
+}
+.ico{
+  color:#00FFF7;
+}
+.r{
+  color: #8BACDA;
+}
+.tempo{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.rodape{
+  margin-top: 20px;
+  padding-top: 20px;
+  display:flex;
+  flex-direction: row;
+  border-top: 2px solid #2F415B;
+}
+.rodape > p{
+  margin-left: 20px;
+}
+.avata{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-image: url("image-avatar.png");
+  background-size: cover;
+  border: 2px solid white;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
